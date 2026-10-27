@@ -1,8 +1,8 @@
 {
-  "release": "incident-agent-mvp-1",
+  "release": "incident-agent-mvp-2-prompt-experiment",
   "adapter": "system",
   "model": "deterministic-evidence-agent-2026-10-26",
-  "prompt_version": "v1",
+  "prompt_version": "v2",
   "index_version": "keyword-evidence-v1",
   "temperature": 0.0,
   "eval_set_hash": "f4f7ef8e901a",
