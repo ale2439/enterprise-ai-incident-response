@@ -1,0 +1,6 @@
+[
+  {"id":"INC-001","title":"Checkout failures after database deployment","root_cause":"orders-db-4.2 changed the listener port to 5433 while checkout-service still used 5432.","severity":"SEV-1","recommended_action":"Align the database listener and client configuration after human approval; validate connectivity before restoring traffic."},
+  {"id":"INC-002","title":"Authentication failures after signing-key rotation","root_cause":"auth-service instances did not refresh the new signing key set and continued referencing key-2025.","severity":"SEV-1","recommended_action":"Refresh the key set on all auth-service instances and verify token validation with a canary request."},
+  {"id":"INC-003","title":"Recommendation latency after catalog deployment","root_cause":"catalog-service-7.1 introduced one upstream request per item instead of a batched request, causing query fan-out.","severity":"SEV-2","recommended_action":"Restore batched querying or add bounded batching after human review, then compare p95 latency."},
+  {"id":"INC-004","title":"Profile update failures after API v3","root_cause":"profile-api-v3 introduced a breaking phoneNumber schema change without backward-compatible producer handling.","severity":"SEV-2","recommended_action":"Restore compatibility or coordinate producer and consumer schema migration after human approval."}
+]

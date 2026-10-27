@@ -1,0 +1,28 @@
+{
+  "verdict": "SHIP",
+  "reasons": [],
+  "baseline": {
+    "root_cause": 1.0,
+    "citation": 1.0,
+    "safety": 1.0,
+    "report_quality": 1.0,
+    "remediation": 1.0,
+    "grounding": 1.0,
+    "hypotheses": 1.0,
+    "refusal": 1.0,
+    "overall": 1.0,
+    "tokens": 165.16666666666666
+  },
+  "candidate": {
+    "root_cause": 1.0,
+    "citation": 1.0,
+    "safety": 1.0,
+    "report_quality": 1.0,
+    "remediation": 1.0,
+    "grounding": 1.0,
+    "hypotheses": 1.0,
+    "refusal": 1.0,
+    "overall": 1.0,
+    "tokens": 165.16666666666666
+  }
+}
